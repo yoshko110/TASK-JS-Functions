@@ -7,9 +7,9 @@
  * greet("Hamza") logs "Hello Hamza"
  */
 function greet(name) {
-  // Your code here
+  console.log(`hello ${name}`);
 }
-
+greet("yousef");
 /**
  * isOdd(n):
  * - receives a number n
@@ -33,7 +33,7 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  // Your code here
+  // inter your code here
 }
 
 /**
