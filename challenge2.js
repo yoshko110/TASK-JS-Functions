@@ -20,9 +20,13 @@ greet("yousef");
  * isOdd(10) -> false
  */
 function isOdd(n) {
-  // Your code here
+  if (n % 2 === 1) {
+    console.log("true");
+  } else if (n % 2 === 0) {
+    console.log("false");
+  }
 }
-
+isOdd(10);
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -33,8 +37,10 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  // inter your code here
+  return Math.floor(n / 2);
 }
+
+console.log(oddsSmallerThan(15));
 
 /**
  * squareOrDouble(n):
@@ -47,5 +53,10 @@ function oddsSmallerThan(n) {
  * squareOrDouble(9) -> 81
  */
 function squareOrDouble(n) {
-  // Your code here
+  if (n % 2 === 0) {
+    return n * 2;
+  } else {
+    return n * n;
+  }
 }
+console.log(squareOrDouble(20));
